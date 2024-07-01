@@ -50,7 +50,10 @@ function App() {
 
   return (
     <div className="app-container">
-      <TaskCard 
+      {data.map((item, i) => {
+               return <TaskCard id={data[i].id} status={data[i].status} name={data[i].name} dueDate={data[i].dueDate} />;
+            })}
+      {/* <TaskCard 
         id = {data[0].id}
         status = {data[0].status}
         name = {data[0].name}
@@ -91,7 +94,7 @@ function App() {
         status = {data[6].status}
         name = {data[6].name}
         dueDate = {data[6].dueDate}
-      />
+      /> */}
     </div>
   )
 }
