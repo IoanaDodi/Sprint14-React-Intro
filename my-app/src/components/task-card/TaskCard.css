@@ -28,22 +28,7 @@
     font-weight: 700;
 }
 
-.card-content {
-    text-align: left;
-}
 
-.card-content p {
-    text-align: left;
-    color: #16171d;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: -0.02em;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-}
 
 .card-footer {
     display: flex;
